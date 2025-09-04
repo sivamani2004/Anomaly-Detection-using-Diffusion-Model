@@ -19,32 +19,15 @@
 🔗 Official Dataset Page: **https://www.kaggle.com/datasets/hassan06/nslkdd**  
    After download, place the dataset files into the `data/` directory.
 
----
-
-##  Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/YOUR-USERNAME/deep-diffusion-anomaly-detection-nslkdd.git
-cd deep-diffusion-anomaly-detection-nslkdd
-```
-
-### 2. Install required packages
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
-Launch Jupyter and open:
-```bash
-jupyter notebook NSL_VER2_2_mark2.ipynb
-```
-
----
 
 ##  Model Evaluation
 
 - **Metrics:** Accuracy, Precision, Recall, F1-Score, ROC-AUC
 - **Outputs:** Confusion matrix, anomaly score plots, visualizations, diffusion model
+
+## Results 
+
+- Compared the diffusion model against other benchmark models like autoencoder, PCA, and Isolation Forest.
+- Achieved F1-score of 0.887, outperforming PCA and Isolation Forest while performing comparably to an Autoencoder despite being an unsupervised model.
 
 ---
