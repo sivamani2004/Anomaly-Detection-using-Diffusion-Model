@@ -17,7 +17,6 @@
 ##  Dataset
 
 🔗 Official Dataset Page: **https://www.kaggle.com/datasets/hassan06/nslkdd**  
-   After download, place the dataset files into the `data/` directory.
 
 
 ##  Model Evaluation
